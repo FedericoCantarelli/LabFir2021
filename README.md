@@ -20,3 +20,11 @@ Ex4 -> UDP server socket for uppercase string
 Ex5 -> UDP server socket for consonants counting
 
 Ex5_2 -> modified client socket for Ex5
+
+Ex6 -> TCP client socket 
+
+Ex7 -> TCP server socket
+
+Ex8 -> Persistent TCP client socket
+
+Ex9 -> Persistent TCP server socket
