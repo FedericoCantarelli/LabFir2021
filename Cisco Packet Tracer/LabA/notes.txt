@@ -1,0 +1,26 @@
+# CLI in cisco packet tracer
+
+`show ?` -> for showing all the info aviable in the selected mode
+`enable/disable` -> gain privileges
+`show startup-config` -> view startup config
+`copy running-config startup-config` -> to save startup config (you must have privilege execution mode)
+`show version` -> general info about software version and router hardware (including RAM and ROM)
+`show interface FastEthernet1/0` -> to get info about FastEthernet1/0 interface (including queues, ARP timeout...)
+
+
+`conf t` -> once in privilege, to access global configuration mode
+`hostname <name>` -> to change host name
+`banner motd #` -> to show message of the day
+`enable secret <password>` -> to set password (NB. No ask for reinsertion)
+`no enable secret` -> to disable password
+
+`interface <interface name>` -> once in global, to access specific configuration mode
+`?` -> to see help
+`ip address ipa.ddr.ess.her sub.net.mas.kkk` -> to set ip address for selected interface
+`shutdown` -> to shutdown specific interface 
+`no shutdown` -> to power on specific interface
+
+
+Once PC is connected ot console ethernet port on router
+`line vty 0 4` -> for router 2621XM
+`password <telnetpwd>` -> to set telnet password, to protect router from remote access
